@@ -1,0 +1,227 @@
+{
+  "name": "Promotional products resellers",
+  "description": "Companies that sell promotional products with a logo to businesses: corporate gifts, pens, bags, drinkware, textiles, etc. Resellers and agencies, plus print shops and wholesalers where promo products are one department (marked in the note).",
+  "include": [
+    "promo product resellers and agencies",
+    "corporate gift companies selling logo products to businesses",
+    "print shops, textile printers, embroidery shops and wholesalers with a promo / logo products department (mark in note)",
+    "closed companies stay in the list, marked closed",
+    "foreign companies with a local shop or local-language site (mark 'foreign seller (XX)' in note)"
+  ],
+  "exclude": [
+    "pure advertising / marketing agencies without physical products",
+    "consumer souvenir shops that do not sell logo products to businesses",
+    "sign makers and large-format print only (no promo products)",
+    "event agencies, trade fair builders"
+  ],
+  "proof": {
+    "enabled": false,
+    "label": "Suppliers found",
+    "signals": [
+      {
+        "name": "midocean",
+        "patterns": [
+          "midocean",
+          "more than gifts",
+          "(?-i:\\bMO\\d{4}\\b)",
+          "(?-i:\\bKC\\d{4}\\b)",
+          "(?-i:\\bAR\\d{4}\\b)",
+          "\\b(?:mo|kc|ar)\\d{4}-\\d{2}\\b"
+        ],
+        "min_hits": 2
+      },
+      {
+        "name": "PF Concept",
+        "patterns": [
+          "pf ?concept",
+          "pfconcept",
+          "(?-i:\\bElevate\\b)",
+          "(?-i:\\bMarksman\\b)",
+          "(?-i:\\bSlazenger\\b)",
+          "[/=_-]1[0-2]\\d{6}(?=[-_./?\"']|$)"
+        ],
+        "min_hits": 5
+      }
+    ]
+  },
+  "countries": {
+    "FI": {
+      "name_keywords": [
+        "liikelahj",
+        "mainoslahj",
+        "mainostuot",
+        "logotuot",
+        "yrityslahj",
+        "lahjatuot",
+        "brändituot",
+        "profiilituot",
+        "tekstiilipaino",
+        "reklamartik",
+        "profilprodukt",
+        "affärsgåv",
+        "presentreklam",
+        "logolahj",
+        "kampanjatuot"
+      ],
+      "name_exclude": [
+        "promotion",
+        "kiinteist",
+        "asunto"
+      ],
+      "industry_codes": [
+        "46499",
+        "46900",
+        "46190",
+        "46420",
+        "18120",
+        "14190"
+      ],
+      "site_keywords": [
+        "liikelahj",
+        "mainoslahj",
+        "mainostuot",
+        "logotuot",
+        "yrityslahj",
+        "logolla",
+        "logopainat",
+        "logon painat",
+        "tekstiilipaino",
+        "brodeer",
+        "profiilituot",
+        "brändituot",
+        "promootuot",
+        "giveaway",
+        "merch",
+        "reklamartik",
+        "profilprodukt",
+        "affärsgåv",
+        "promotional product",
+        "corporate gift",
+        "liikelahjat",
+        "painatettu",
+        "lahjatuot",
+        "kampanjatuot",
+        "yritysasu"
+      ],
+      "min_site_hits": 2,
+      "search_queries": [
+        "mainostuotteet",
+        "logotuotteet",
+        "liikelahjat yrityksille",
+        "yrityslahjat logolla",
+        "mainoslahjat",
+        "liikelahjat painatus",
+        "logotekstiilit painatus",
+        "brändituotteet yritykselle",
+        "profiilituotteet",
+        "mainostuotteet Helsinki",
+        "mainostuotteet Tampere",
+        "mainostuotteet Turku",
+        "mainostuotteet Oulu",
+        "liikelahjat Jyväskylä",
+        "liikelahjat Kuopio",
+        "liikelahjat Lahti",
+        "mainostuotteet Vaasa",
+        "logotuotteet Pori",
+        "midocean jälleenmyyjä",
+        "pf concept liikelahjat"
+      ],
+      "directories": [
+        "finder.fi (category: Liikelahjat, Mainostuotteet)",
+        "yritykset.fi / fonecta"
+      ],
+      "name_keywords_weak": [
+        "promo",
+        "merch",
+        "brodeer",
+        "giveaway",
+        "mainosmateriaal",
+        "logo"
+      ]
+    },
+    "LV": {
+      "name_keywords": [
+        "reklām",
+        "prezent",
+        "suvenīr",
+        "suvenir",
+        "promo",
+        "dāvan",
+        "davan",
+        "apdruk",
+        "izšūš"
+      ],
+      "name_exclude": [
+        "aģentūra nekustam",
+        "nekustamā"
+      ],
+      "industry_codes": [
+        "7311",
+        "4649",
+        "1812",
+        "4642"
+      ],
+      "industry_min_staff": 1,
+      "site_keywords": [
+        "reklāmas preces",
+        "reklāmas prece",
+        "prezentreklām",
+        "dāvanas ar logo",
+        "suvenīri ar logo",
+        "suvenīr",
+        "apdruk",
+        "logo",
+        "korporatīv",
+        "biznesa dāvan",
+        "reklāmas suvenīr",
+        "promo",
+        "рекламн",
+        "сувенир",
+        "promotional",
+        "corporate gift",
+        "gravēšan",
+        "izšūšan",
+        "tekstilizstrādājum",
+        "darba apģērb"
+      ],
+      "min_site_hits": 3,
+      "search_queries": [
+        "reklāmas preces",
+        "prezentreklāma",
+        "apdruka uz krūzēm",
+        "dāvanas ar logo",
+        "suvenīri ar logo",
+        "korporatīvās dāvanas",
+        "biznesa dāvanas ar logo",
+        "apģērbu apdruka logo",
+        "reklāmas suvenīri Rīga",
+        "reklāmas preces Liepāja",
+        "reklāmas preces Daugavpils",
+        "reklāmas preces Jelgava",
+        "reklāmas preces Valmiera",
+        "рекламные сувениры Рига",
+        "midocean Latvija"
+      ],
+      "directories": [
+        "zl.lv (Reklāmas suvenīri)",
+        "1188.lv",
+        "viss.lv",
+        "firmas.lv"
+      ],
+      "name_keywords_weak": [
+        "print",
+        "druk",
+        "logo",
+        "gift",
+        "brand",
+        "tekstil",
+        "zīmog"
+      ],
+      "zl_categories": [
+        "reklamas-suveniri",
+        "davanas-ar-logo",
+        "apdruka"
+      ]
+    }
+  }
+}
