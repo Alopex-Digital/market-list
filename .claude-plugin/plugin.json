@@ -1,0 +1,8 @@
+{
+  "name": "market-list",
+  "version": "0.1.0",
+  "description": "Build a complete list of every company of one kind in one European country: registry data, staff, taxes or revenue, generic emails, phones and decision makers, exported to Excel. Resumable in batches.",
+  "author": { "name": "Alopex Digital" },
+  "license": "MIT",
+  "keywords": ["lead generation", "company list", "market mapping", "registry", "europe", "clay"]
+}

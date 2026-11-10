@@ -1,0 +1,11 @@
+{
+  "name": "alopex-tools",
+  "owner": { "name": "Alopex Digital" },
+  "plugins": [
+    {
+      "name": "market-list",
+      "source": "./",
+      "description": "Complete company lists per niche and country, with contacts, exported to Excel."
+    }
+  ]
+}
