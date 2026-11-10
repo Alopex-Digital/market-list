@@ -3,3 +3,10 @@ __pycache__/
 .lock
 *.tmp
 *.part
+.DS_Store
+node_modules/
+.env
+.env.*
+*.token
+*.token.json
+secrets.md
