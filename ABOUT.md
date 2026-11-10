@@ -6,6 +6,7 @@ Claude Code skill: finds every company of one kind in one European country and d
 |---|---|
 | **Who uses it** | Martin, Artem, anyone doing market mapping (also shared publicly) |
 | **Status** | ✅ Current (built 10.11.2026 for 9to4: promo resellers FI + LV) |
+| **Type** | Claude skill |
 | **Source (GitHub)** | https://github.com/Alopex-Digital/market-list |
 | **Drive** | Internal_Tools / market-list (skill) (README, latest zip) |
 | **Owner** | Mikita Kutsenka |
