@@ -16,7 +16,7 @@ its usage limits halfway, everything is saved: type `/market-list continue` late
 You need Claude Code, Python 3.8+ and Node.js (for the Clay connection).
 
 ```
-/plugin marketplace add mickeyalopex/market-list
+/plugin marketplace add Alopex-Digital/market-list
 /plugin install market-list@alopex-tools
 ```
 
